@@ -1,0 +1,5 @@
+1. Works only for gmail
+2. Do not name your file name as "email"
+3. Official Documentation: https://docs.python.org/3/library/smtplib.html
+4. https://myaccount.google.com/lesssecureapps (turn it on, who does not have two step verification method)
+   https://myaccount.google.com/apppasswords (create a password, who does have two step verification method)

@@ -1,0 +1,9 @@
+1. Packages to be installed:
+	kivy
+	kivy-deps.angle
+	kivy-deps.glew
+	kivy-deps.gstreamer
+	kivy-deps.sdl2
+
+2. Kivy official documentation:
+	https://kivy.org/doc/stable/ 

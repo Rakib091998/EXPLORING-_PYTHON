@@ -1,0 +1,7 @@
+1. Import nltk library
+
+2. Run setting.py file, then click on all to downlosd all files.
+
+3. NLTK Website : https://www.nltk.org/
+
+ THIS PROGRAM CLASSIFIES WHETHER THE SENTIMENT IS POSITIVE OR NEGATIVE

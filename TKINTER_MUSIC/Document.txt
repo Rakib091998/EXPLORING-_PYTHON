@@ -1,0 +1,5 @@
+1. Install pygame package
+
+2. tkinter docs : https://docs.python.org/3/library/tkinter.html
+
+3. visit "Flaticon.com" for png and icons.

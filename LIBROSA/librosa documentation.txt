@@ -1,0 +1,5 @@
+glob module: https://docs.python.org/2/library/glob.html
+
+librosa official documentation : https://pypi.org/project/librosa/
+
+dataset source : https://www.kaggle.com/kinguistics/heartbeat-sounds

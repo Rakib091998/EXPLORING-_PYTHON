@@ -1,0 +1,91 @@
+# Open image
+
+from PIL import Image
+image1 = Image.open('dog1.jpg')
+image1.show()
+-------------------------
+# Save image as png
+
+from PIL import Image
+image1 = Image.open('dog1.jpg')
+image1.save(dog1.png')
+
+---------------------------
+# Save more than one image as png
+
+from PIL import Image
+import os
+
+for f in os.listdir('.'):
+	if f.endswith('.jpg'):
+		print (f)
+
+from PIL import Image
+image1 = Image.open('dog1.jpg')
+-----------------------------
+# Save more than one image as png in a folder
+
+from PIL import Image
+import os
+
+for f in os.listdir('.'):
+	if f.endswith('.jpg'):
+		i = Image.open(f)
+		fn , ftext = os.path.splitext(f)
+		i.save('pngs/{}.png'.format(fn))
+--------------------------------------
+# Save more than one image of particular size in a folder
+
+from PIL import Image
+import os
+
+size_300 = (300,300)
+
+for f in os.listdir('.'):
+	if f.endswith('.jpg'):
+		i = Image.open(f)
+		fn , ftext = os.path.splitext(f)
+		i.thumbnail(size_300)
+		i.save('300/{}_300{}'.format(fn,ftext))
+------------------------------------------
+# Save more than one image of  2 different size in a folder
+
+from PIL import Image
+import os
+
+size_300 = (300,300)
+size_700 = (700,700)
+
+for f in os.listdir('.'):
+	if f.endswith('.jpg'):
+		i = Image.open(f)
+		fn , ftext = os.path.splitext(f)
+		i.thumbnail(size_700)
+		i.save('700/{}_700{}'.format(fn,ftext))
+		
+		i.thumbnail(size_300)
+		i.save('300/{}_300{}'.format(fn,ftext))
+----------------------------------------------------
+# Rotate iamge
+
+from PIL import Image
+import os
+
+image1 = Image.open('dog1.jpg')
+image1.rotate(90).save('dog1.jpg')
+----------------------------------------------
+# For black and white images
+
+from PIL import Image
+import os
+
+image1 = Image.open('dog1.jgp')
+image1.convert(mode='L').save('dog1.jpg')
+------------------------------------------
+# Blur image
+
+from PIL import Image,ImageFilter
+import os
+
+image1 = Image.open('dog1.jgp')
+image1.filter(ImageFilter.GaussianBlur(15)).save('dog1.jpg')

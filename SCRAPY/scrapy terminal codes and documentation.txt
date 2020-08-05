@@ -1,0 +1,40 @@
+1.Creating a project
+	scrapy startproject tutorial
+
+2.Run our spider
+	scrapy crawl quotes
+
+
+3.Extracting data
+	scrapy shell "http://quotes.toscrape.com/page/1/"
+
+
+4.Extract using reglar expression
+	response.css('title::text').re(r'Quotes.*')
+
+
+5.Extract using Xpath
+	response.xpath('//title/text()').get()
+
+
+6.Saving extracted data in Json format
+	scrapy crawl quotes -o quotes.json
+
+
+7.Saving extracted data in csv format
+	scrapy crawl quotes -o quotes.csv
+
+--------------------------------------------------------------------------------------------
+
+
+1.OFFICIAL SCRAPY WEBSITE TO PRACTICE
+	http://quotes.toscrape.com/
+
+2.INSTALLATION GUIDE
+	https://docs.scrapy.org/en/latest/intro/install.html#intro-install
+
+3.OFFICIAL WEBSITE
+	https://docs.scrapy.org/en/latest/
+
+4.BASIC TUTORIAL GUIDE
+	https://docs.scrapy.org/en/latest/intro/tutorial.html

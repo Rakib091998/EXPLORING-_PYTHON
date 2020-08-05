@@ -1,0 +1,4 @@
+1. Dictionary program to search the meaning of word as well as 
+   suggest similar words until it finds a word that did not match.
+
+2. To read json file : https://jsoneditoronline.org/

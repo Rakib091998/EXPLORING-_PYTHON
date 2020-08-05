@@ -1,0 +1,8 @@
+1. Kivy official documentation:
+	https://kivy.org/doc/stable/ 
+
+2. # 1) Import Line Graphics
+   # 2) Create a Touch dictionary -> Store the initial touch point in it
+   # 3) When the moose is dragged to extend the line store the next points inside dictionary
+   # 4) Store it inside the canvas
+   # 5) Random colours

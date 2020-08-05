@@ -1,0 +1,10 @@
+1. Official Documentation : https://dzone.com/articles/an-intro-to-pypdf2
+2. To install PyPDF2 : pip install pypdf2
+3. This notebook teaches play with pdf using PyPDF2:
+	A. Extracting Metadata
+	B. Extracting Text
+	C. Splitting PDFs
+	D. Merging PDFs
+	E. Rotating Pages
+	F. Watermarking Pages
+	G. Encrypting Pages
